@@ -1,0 +1,87 @@
+
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .pattern_top {
+    position: absolute;
+    margin-left: -65%;
+    margin-top: -45%;
+  }
+
+.pattern_bottom {
+  position: absolute;
+  margin-right: -60%;
+  margin-top: 50%;
+}
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #fff;
+    z-index: 1;
+  }
+
+.card_body {
+  text-align: center;
+}
+
+.header_image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.image_victor {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+  .card_footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid hsl(0, 0%, 59%);
+    text-align: center;
+  }
+
+  .likes > p {
+    font-size: 0.8rem;
+  }
+
+  .card > p {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+
+  .number {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+  }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 0.7rem;
+}
+
+
+
+  .attribution {
+     font-size: 11px;
+     text-align: center;
+     bottom: 0;
+    }
+  .attribution a { color: hsl(228, 45%, 44%); }
