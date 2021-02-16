@@ -17,14 +17,21 @@
 
   .pattern_top {
     position: absolute;
-    margin-left: -65%;
-    margin-top: -45%;
+    transform: translate(-440px, -450px);
+    transition: all 1s ease;
   }
 
 .pattern_bottom {
   position: absolute;
-  margin-right: -60%;
-  margin-top: 50%;
+  transform: translate(440px, 450px);
+  transition: all 1s ease;
+}
+
+.card:hover ~ .pattern_top {
+  transform: translate(-471px, -410px);
+}
+.card:hover ~ .pattern_bottom {
+  transform: translate(471px, 410px);
 }
 
   .card {
